@@ -1,7 +1,8 @@
 # crontab
 
 > Schedule cron jobs to run on a time interval for the current user.
-> Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute".
+>
+> Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute" - month maybe numeric 1-12 or JAN-DEC; day_of_week maybe numeric 0-6 or SUN-SAT
 
 - Edit the crontab file for the current user:
 
